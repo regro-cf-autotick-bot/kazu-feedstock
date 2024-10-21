@@ -1,5 +1,5 @@
 {% set name = "kazu" %}
-{% set version = "2.2.0" %}
+{% set version = "2.2.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/kazu-{{ version }}.tar.gz
-  sha256: 756cc79fae6a2057f5f6595362431c2e2908ce34b020936e0a0715c34c0c0471
+  sha256: 69bdcdf0b66f2e606abcd43e48cf71a05c43cb028ba8aa38dcbd64cbe6c4db16
 
 build:
   noarch: python
